@@ -63,6 +63,12 @@ body {
 header {
     display:flex;
     justify-content:space-between;
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    width:100%;
+    background-color:#FBFFFB;
+    opacity:0.9;
 }
 .logoImage {
     max-width:8%;
@@ -73,12 +79,16 @@ nav {
     border:1px solid black;/* !!! REMOVE WHEN DONE TWEAKING WITH THIS SECTION !!! */
     margin-right:2%;
     padding:2%;
-    font-size:1.6rem;
+    font-size:1.4rem;
     font-family: 'Oxygen', sans-serif;
     color:#266035;
     display:flex;
     justify-content:space-between;
     align-items:center;
+}
+#homeDawg {
+    margin-top:8%; /* !!! Needs this in order to not be behind nav bar. May be able to fix !!! */
+    background-image:url("images/header.jpg");
 }
 h1 {
     font-family: 'Oxygen', sans-serif;
