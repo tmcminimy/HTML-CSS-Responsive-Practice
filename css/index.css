@@ -88,10 +88,10 @@ nav {
 }
 #homeDawg {
     margin-top:8%; /* !!! Needs this in order to not be behind nav bar. May be able to fix !!! */
-    background-image:url("images/header.jpg");
+    background:url(../images/header.jpg);
 }
 h1 {
     font-family: 'Oxygen', sans-serif;
-    color:pink; /* !!! Remember to set back to #FBFFFB after background img is done !!! */
+    color:#FBFFFB; 
 }
 /* CSS FOR TOP AREA END */
