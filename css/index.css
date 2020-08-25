@@ -137,9 +137,8 @@ h1 {
 /* OUR STORY AREA START */
 #ourStory {
     background:url('../images/about-img.jpg');
-    background-size:100% auto;
-    background-repeat:no-repeat;
-    background-position:0% 25%;
+    background-size:85% auto;
+    background-position:0%;
     height:60vh;
     display:flex;
     flex-direction:column;
