@@ -139,7 +139,6 @@ h1 {
 #ourStory {
     background:url('../images/about-img.jpg');
     background-size:85% auto;
-    background-position:0%;
     padding-top:1%;
     height:60vh;
     display:flex;
