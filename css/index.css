@@ -59,6 +59,15 @@ body {
     background-color:#FBFFFB;
     font-family: 'Source Sans Pro', sans-serif;
 }
+h2 {
+    font-size:3rem;
+    color:#266035;
+}
+h3 {
+    font-size:2.2rem;
+    color:#266035;
+    text-align:center;
+}
 /* CSS FOR TOP AREA START */
 header {
     display:flex;
@@ -74,9 +83,9 @@ header {
     max-width:8%;
     margin-left:1%;
 }
+/* Top NAV buttons, need to stay green instead of blue/purple links */
 nav {
     width:50%;
-    border:1px solid black;/* !!! REMOVE WHEN DONE TWEAKING WITH THIS SECTION !!! */
     margin-right:2%;
     padding:2%;
     font-size:1.4rem;
@@ -86,12 +95,103 @@ nav {
     justify-content:space-between;
     align-items:center;
 }
+a:link {
+    color:#266035;
+    text-decoration:none;
+}
+a:visited {
+    color:#266035;
+    text-decoration:none;
+}
+/* Top NAV buttons end */
+/* MAIN SPLASH PAGE START */
 #homeDawg {
-    margin-top:8%; /* !!! Needs this in order to not be behind nav bar. May be able to fix !!! */
-    background:url(../images/header.jpg);
+    background-image:url('../images/header.jpg');
+    height:90vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
 }
 h1 {
     font-family: 'Oxygen', sans-serif;
-    color:#FBFFFB; 
+    color:#FBFFFB;
+    font-size:3.8rem;
+    margin:2%; 
 }
+.headerButton {
+    border:1px solid #FBFFFB;
+    background-color:#FBFFFB;
+    padding:1.5%;
+    color:#266035;
+    font-size:1.4rem;
+    margin:2%;
+}
+.headerButton:hover {
+    background-color:#266035;
+    color:#FBFFFB;
+    transition:1s;
+}
+/* MAIN SPLASH PAGE END */
 /* CSS FOR TOP AREA END */
+/* OUR STORY AREA START */
+#ourStory {
+    background:url('../images/about-img.jpg');
+    height:60vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+}
+.aboutOurStory {
+    margin:2% 2% 1% 55%;
+}
+.aboutUs {
+    font-size:1.2rem;
+    margin:2% 5% 8% 50%;
+    text-align:justify;
+    line-height:1.5;
+}
+/* OUR STORY AREA END */
+/* OUR PLANTS AREA START */
+.ourPlantsDiv {
+    text-align:center;
+    width:100%;
+    margin-top:3%;
+    margin-bottom:3%;
+}
+.succulents {
+    display:flex;
+}
+.succulentsImage {
+    width:50%;
+    max-width:900px;
+}
+.succulentsText{
+    padding:3%;
+    margin-top:3%;
+    margin-bottom:3%;
+    display:flex;
+    flex-direction:column;
+    text-align:justify;
+    align-items:center;
+    line-height:1.5;
+}
+.succulentsP {
+    margin:5% 5% 5% 5%;
+    align-items:center;
+    font-size:1.4rem;
+}
+.succulentsShop {
+    border:1px solid #266035;
+    background-color:#266035;
+    color:#FBFFFB;
+    padding:1.5% 5% 1.5% 5%;
+    margin:2%;
+    font-size:1.6rem;
+}
+.succulentsShop:hover {
+    background-color:#FBFFFB;
+    color:#266035;
+    transition:1s;
+}
+/* OUR PLANTS AREA END */
